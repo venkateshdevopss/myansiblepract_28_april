@@ -3,5 +3,5 @@
   tasks:
   - name: insatll webserver
     apt:
-    - name: apache2
+      name: apache2
       state: present
