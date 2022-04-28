@@ -1,0 +1,6 @@
+---
+- hosts: all
+- name: insatll webserver
+  apt:
+  - name: apache2
+    state: present
