@@ -1,10 +1,11 @@
 ---
 - hosts: all
   tasks:
-  - name: insatll webserver
+  - name: insatll git
     apt:
-      name: apache2
+      name: git
       state: present
+      
   - name: insatll tree
     apt:
       name: tree
