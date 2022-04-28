@@ -1,11 +1,12 @@
 ---
 - hosts: all
+  become: yes
   tasks:
   - name: insatll git
     apt:
       name: git
       state: present
-      
+
   - name: insatll tree
     apt:
       name: tree
