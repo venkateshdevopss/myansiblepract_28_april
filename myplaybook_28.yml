@@ -5,3 +5,7 @@
     apt:
       name: apache2
       state: present
+  - name: insatll tree
+    apt:
+      name: tree
+      state: present
