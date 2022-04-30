@@ -2,16 +2,6 @@
 - hosts: all
   become: yes
   tasks:
-  - name: insatll git
-    apt:
-      name: git
-      state: present
-
-  - name: insatll tree
-    apt:
-      name: tree
-      state: present
-
   - name: insatll webserver
     apt:
       name: apache2
